@@ -2,9 +2,6 @@ body {
     background-color: aquamarine;
 }
 
-*{
-    border: solid;
-}
 
 .menu {
     display: flex;
@@ -15,5 +12,5 @@ body {
 
 .games{
     
-    background-color: aliceblue;
+    background-color: rgb(126, 146, 227);
 }
