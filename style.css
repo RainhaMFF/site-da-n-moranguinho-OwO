@@ -1,23 +1,76 @@
-body { background-color: rgb(127, 140, 255);
-background-image: url("https://wallpaperaccess.com/full/765395.jpg"); }
- *{ border: solid; } 
+body { 
+    background-color: rgb(127, 140, 255);
+    background-image: url("bg.webp"); 
+}
+a:link{
+    text-decoration: none;
+    
+}
+a:visited{
+    color: white;
+}
 
- .menu { display: flex;
-     flex-wrap: wrap; 
-     justify-content: space-between;
-      position: sticky;
-       top: 0; align-items: center;
-        padding: 5px;
-         background-color: rgb(107, 103, 210); }
+/* MENU */
+
+.menu {
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: space-between;
+    position: sticky;
+    top: 0; 
+    align-items: center;
+    padding: 5px;
+    background-color: rgb(107, 103, 210);
+    z-index: 10;
+}
+.titulo{
+    display: flex;
+    gap: 50px;
+}
+
+/* CONTEÚDO PRINCIPAL */
+.principal{
+    display: flex;
+    
+    
+}
+
+.notas{
+    color: white;
+    padding: 5px;
+    margin-top: 80px;
+    gap: 5px ;
+    border: solid black
+}
+
+.notas p {
+    border: solid rgb(107, 103, 210);
+}
            
-         .games{ display: flex; flex-wrap: wrap;
-             justify-content: space-between;
-              background-image: url("https://wallpaperaccess.com/full/765395.jpg"); 
-              padding: 20px; margin-top: 20px;
-               gap: 5px } 
+.games{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px; 
+    margin-top: 20px;
+    gap: 5px 
+} 
 
-                .footer{
-                     display: block; 
-                      margin-top: 20px; 
-                      margin-left: 39%; 
-                      width: 67px; padding: 17px; }
+.item{
+    color: white;
+    border: solid rgb(107, 103, 210);;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+
+/* RODAPÉ */
+.footer{
+    display: block; 
+    margin-top: 20px; 
+    margin-left: 39%; 
+    width: 67px; 
+    padding: 17px;
+}
